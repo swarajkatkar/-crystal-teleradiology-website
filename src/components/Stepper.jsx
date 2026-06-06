@@ -28,7 +28,7 @@ const Stepper = ({ steps = [] }) => {
             <div className="flex flex-col gap-2">
               <h4
                 className="text-sm font-bold text-slate-900 group-hover:text-primary transition-colors duration-300 leading-tight"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+                style={{ fontFamily: 'Manrope, sans-serif' }}
               >
                 {step.title}
               </h4>
@@ -60,7 +60,7 @@ const Stepper = ({ steps = [] }) => {
             <div className={`flex flex-col gap-1 ${idx < steps.length - 1 ? "pb-8" : ""}`}>
               <h4
                 className="text-base font-bold text-slate-900 group-hover:text-primary transition-colors leading-tight"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+                style={{ fontFamily: 'Manrope, sans-serif' }}
               >
                 {step.title}
               </h4>

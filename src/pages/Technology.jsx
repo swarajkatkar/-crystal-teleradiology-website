@@ -90,7 +90,7 @@ const Technology = () => (
             </div>
             <div className="flex-1 text-center lg:text-left">
               <span className="saas-badge saas-badge-dot mb-4 inline-flex">Technology Partnership</span>
-              <h2 className="text-3xl font-black text-slate-900 tracking-tight mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h2 className="text-3xl font-black text-slate-900 tracking-tight mb-3" style={{ fontFamily: 'Manrope, sans-serif' }}>
                 Enabled by <span className="text-gradient">Imagebytes</span>
               </h2>
               <p className="text-slate-500 text-base leading-relaxed max-w-2xl">
@@ -166,7 +166,7 @@ const Technology = () => (
                 <div>
                   <h3
                     className="text-xl font-bold text-slate-900 mb-3 group-hover:text-primary transition-colors duration-300"
-                    style={{ fontFamily: 'Syne, sans-serif' }}
+                    style={{ fontFamily: 'Manrope, sans-serif' }}
                   >
                     {s.title}
                   </h3>
@@ -201,7 +201,7 @@ const Technology = () => (
                   {t.icon}
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900 mb-1.5 group-hover:text-primary transition-colors" style={{ fontFamily: 'Syne, sans-serif' }}>
+                  <h4 className="font-bold text-slate-900 mb-1.5 group-hover:text-primary transition-colors" style={{ fontFamily: 'Manrope, sans-serif' }}>
                     {t.title}
                   </h4>
                   <p className="text-sm text-slate-500 leading-relaxed">{t.desc}</p>

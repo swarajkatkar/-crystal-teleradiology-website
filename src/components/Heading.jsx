@@ -58,6 +58,7 @@ const Heading = ({
           "font-extrabold tracking-tight leading-[1.08] text-balance",
           dark ? "text-white" : "text-slate-900",
         ].join(" ")}
+        style={{ fontFamily: 'Manrope, sans-serif' }}
       >
         {renderTitle()}
       </Tag>

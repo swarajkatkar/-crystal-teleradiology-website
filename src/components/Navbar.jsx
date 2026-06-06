@@ -54,7 +54,7 @@ const Navbar = () => {
                 <div className="absolute inset-0 rounded-xl border-2 border-primary/30 scale-110 opacity-0 group-hover:opacity-100 group-hover:scale-125 transition-all duration-500" />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-black text-base text-slate-900 tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <span className="font-black text-base text-slate-900 tracking-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>
                   Crystal
                 </span>
                 <span className="text-[9px] font-bold text-primary uppercase tracking-[0.22em] mt-0.5">

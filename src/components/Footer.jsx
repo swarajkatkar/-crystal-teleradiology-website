@@ -45,7 +45,7 @@ const Footer = () => {
                 <span className="font-black text-sm italic">C</span>
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-black text-base text-white tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <span className="font-black text-base text-white tracking-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>
                   Crystal
                 </span>
                 <span className="text-[9px] font-bold text-secondary uppercase tracking-[0.22em] mt-0.5">

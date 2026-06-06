@@ -49,7 +49,7 @@ const Contact = () => {
             {/* Left — Info */}
             <AnimatedSection direction="left" className="flex flex-col gap-12 min-w-0">
               <div>
-                <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>
                   Sales &amp; Partnership
                 </h2>
                 <p className="text-slate-500 text-base leading-relaxed">
@@ -120,7 +120,7 @@ const Contact = () => {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-2xl font-black text-slate-900 mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
+                      <h3 className="text-2xl font-black text-slate-900 mb-2" style={{ fontFamily: 'Manrope, sans-serif' }}>
                         Inquiry Received
                       </h3>
                       <p className="text-slate-500">Our enterprise team will reach out within 24 hours.</p>
@@ -133,7 +133,7 @@ const Contact = () => {
                   /* Form */
                   <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                     <div className="mb-2">
-                      <h3 className="text-xl font-black text-slate-900" style={{ fontFamily: 'Syne, sans-serif' }}>
+                      <h3 className="text-xl font-black text-slate-900" style={{ fontFamily: 'Manrope, sans-serif' }}>
                         Start Your Inquiry
                       </h3>
                       <p className="text-slate-500 text-sm mt-1">Fill in the details below and we'll get back to you within 24 hours.</p>
@@ -246,7 +246,7 @@ const Contact = () => {
       <section className="section-padding-sm bg-slate-50 border-t border-slate-100">
         <div className="container-width">
           <AnimatedSection direction="up" className="mb-10">
-            <h3 className="text-xl font-black text-slate-900 mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h3 className="text-xl font-black text-slate-900 mb-2" style={{ fontFamily: 'Manrope, sans-serif' }}>
               Regional Operations
             </h3>
             <p className="text-slate-500 text-sm">Dedicated teams across our operational hubs.</p>
@@ -280,7 +280,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <span className="text-primary font-bold text-[10px] uppercase tracking-[0.18em]">{office.label}</span>
-                    <h4 className="font-bold text-slate-900 text-base mt-1 mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>{office.title}</h4>
+                    <h4 className="font-bold text-slate-900 text-base mt-1 mb-2" style={{ fontFamily: 'Manrope, sans-serif' }}>{office.title}</h4>
                     <p className="text-slate-500 text-sm leading-relaxed">{office.desc}</p>
                   </div>
                 </div>

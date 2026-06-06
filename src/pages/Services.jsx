@@ -87,7 +87,7 @@ const Services = () => (
                     {/* Service name bottom */}
                     <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-primary-navy to-transparent" />
                     <div className="absolute bottom-5 left-5 right-5">
-                      <p className="text-white font-black text-xl leading-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+                      <p className="text-white font-black text-xl leading-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>
                         {svc.title}
                       </p>
                     </div>

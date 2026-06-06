@@ -84,7 +84,7 @@ const About = () => (
 
               {/* Floating stat card — uses bottom-0 relative to the padded wrapper so it stays in-column */}
               <div className="absolute bottom-0 left-0 md:-left-4 glass-card p-5 rounded-3xl max-w-[200px] shadow-premium-xl border border-white/50">
-                <span className="text-primary text-3xl font-black block mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>14+</span>
+                <span className="text-primary text-3xl font-black block mb-1" style={{ fontFamily: 'Manrope, sans-serif' }}>14+</span>
                 <p className="text-slate-500 text-xs font-medium leading-snug">
                   Enterprise diagnostic centers currently integrated within our ecosystem.
                 </p>
@@ -155,7 +155,7 @@ const About = () => (
             <div className="glass-dark flex flex-col gap-6 p-10 md:p-12 rounded-4xl border border-white/8 h-full">
               <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center text-3xl">🎯</div>
               <div>
-                <h2 className="text-2xl font-black text-white mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Our Mission</h2>
+                <h2 className="text-2xl font-black text-white mb-4" style={{ fontFamily: 'Manrope, sans-serif' }}>Our Mission</h2>
                 <p className="text-slate-400 text-base leading-relaxed">
                   To democratize specialist healthcare through digital acceleration, ensuring every patient receives accurate, world-class diagnostics regardless of geographical location.
                 </p>
@@ -167,7 +167,7 @@ const About = () => (
             <div className="flex flex-col gap-6 p-10 md:p-12 rounded-4xl border border-primary/30 h-full" style={{ background: 'linear-gradient(135deg, #0057FF 0%, #003DB8 100%)' }}>
               <div className="w-14 h-14 rounded-2xl bg-white/15 flex items-center justify-center text-3xl">🚀</div>
               <div>
-                <h2 className="text-2xl font-black text-white mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Our Vision</h2>
+                <h2 className="text-2xl font-black text-white mb-4" style={{ fontFamily: 'Manrope, sans-serif' }}>Our Vision</h2>
                 <p className="text-white/80 text-base leading-relaxed">
                   To be the primary technological and clinical backbone for teleradiology in India, serving as the benchmark for quality, speed, and platform reliability.
                 </p>

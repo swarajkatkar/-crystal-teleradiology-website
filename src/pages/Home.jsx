@@ -56,7 +56,7 @@ const Home = () => (
             <div className="flex flex-col gap-4">
               <h1
                 className="text-[2.5rem] leading-[1.1] sm:text-5xl lg:text-[3.5rem] xl:text-[3.75rem] font-black tracking-[-0.02em] text-slate-900 w-full break-words"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+                style={{ fontFamily: 'Manrope, sans-serif' }}
               >
                 Transforming Diagnostics with{" "}
                 <span className="text-gradient">AI-Powered</span>{" "}
@@ -169,7 +169,7 @@ const Home = () => (
                         ? 'text-2xl md:text-3xl'
                         : 'text-4xl md:text-5xl'
                     }`}
-                    style={{ fontFamily: 'Syne, sans-serif' }}
+                    style={{ fontFamily: 'Manrope, sans-serif' }}
                   >
                     {s.value}
                   </span>
@@ -238,7 +238,7 @@ const Home = () => (
                   {f.icon}
                 </div>
                 <div>
-                  <h3 className="text-base font-bold text-slate-900 group-hover:text-primary transition-colors duration-300 mb-1.5" style={{ fontFamily: 'Syne, sans-serif' }}>
+                  <h3 className="text-base font-bold text-slate-900 group-hover:text-primary transition-colors duration-300 mb-1.5" style={{ fontFamily: 'Manrope, sans-serif' }}>
                     {f.title}
                   </h3>
                   <p className="text-sm text-slate-500 leading-relaxed">{f.description}</p>
@@ -303,7 +303,7 @@ const Home = () => (
                 { value: "24/7", label: "Active Coverage" },
               ].map((m) => (
                 <div key={m.label} className="metric-block-dark rounded-2xl">
-                  <span className="text-3xl font-black text-white" style={{ fontFamily: 'Syne, sans-serif' }}>{m.value}</span>
+                  <span className="text-3xl font-black text-white" style={{ fontFamily: 'Manrope, sans-serif' }}>{m.value}</span>
                   <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">{m.label}</span>
                 </div>
               ))}

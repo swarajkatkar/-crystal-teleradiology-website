@@ -53,7 +53,7 @@ const FeatureCard = ({
               ? "text-white group-hover:text-secondary"
               : "text-slate-900 group-hover:text-primary"
           }`}
-          style={{ fontFamily: 'Syne, sans-serif' }}
+          style={{ fontFamily: 'Manrope, sans-serif' }}
         >
           {title}
         </h3>

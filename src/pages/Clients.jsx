@@ -91,7 +91,7 @@ const Clients = () => (
                   <div>
                     <h3
                       className="text-lg font-bold text-slate-900 group-hover:text-primary transition-colors duration-300 truncate"
-                      style={{ fontFamily: 'Syne, sans-serif' }}
+                      style={{ fontFamily: 'Manrope, sans-serif' }}
                     >
                       {client.name}
                     </h3>
@@ -150,7 +150,7 @@ const Clients = () => (
                 <AnimatedSection key={c.state} direction="up" delay={idx * 100}>
                   <div className="group p-7 rounded-3xl bg-white/5 border border-white/8 hover:bg-white/9 hover:border-white/15 transition-all duration-400">
                     <div className="flex items-center justify-between mb-3">
-                      <h3 className="text-xl font-bold text-white" style={{ fontFamily: 'Syne, sans-serif' }}>{c.state}</h3>
+                      <h3 className="text-xl font-bold text-white" style={{ fontFamily: 'Manrope, sans-serif' }}>{c.state}</h3>
                       <span className="px-3 py-1.5 rounded-full bg-secondary/15 text-secondary text-[10px] font-bold uppercase tracking-widest border border-secondary/20">
                         {c.centers} Nodes
                       </span>
@@ -211,7 +211,7 @@ const Clients = () => (
                 </div>
 
                 <div className="text-center mt-auto pb-4 relative z-20">
-                  <p className="text-white text-2xl font-black tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>Regional Node Mesh</p>
+                  <p className="text-white text-2xl font-black tracking-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>Regional Node Mesh</p>
                   <p className="text-secondary text-[10px] font-bold uppercase tracking-[0.4em] mt-2">Fully Synchronized</p>
                 </div>
               </div>

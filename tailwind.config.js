@@ -43,7 +43,7 @@ export default {
       },
       fontFamily: {
         sans:    ["Inter", "system-ui", "-apple-system", "sans-serif"],
-        display: ["Syne", "Inter", "system-ui", "sans-serif"],
+        display: ["Manrope", "Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
         "2xs": ["0.65rem", { lineHeight: "1rem" }],

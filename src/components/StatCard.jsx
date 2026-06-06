@@ -29,7 +29,7 @@ const StatCard = ({ value, label, icon, description, variant = "light" }) => {
               ? "text-white group-hover:text-secondary"
               : "text-primary group-hover:text-primary-hover"
           }`}
-          style={{ fontFamily: 'Syne, sans-serif' }}
+          style={{ fontFamily: 'Manrope, sans-serif' }}
         >
           {value}
         </span>

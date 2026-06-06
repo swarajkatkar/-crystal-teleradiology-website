@@ -34,7 +34,7 @@ const DoctorCard = ({
 
         {/* Name overlay on image */}
         <div className="absolute bottom-0 inset-x-0 p-5">
-          <p className="text-white font-black text-lg leading-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <p className="text-white font-black text-lg leading-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>
             {name}
           </p>
           <p className="text-primary-light font-bold text-xs uppercase tracking-[0.15em] mt-1">

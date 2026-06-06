@@ -90,7 +90,7 @@ const Process = () => (
                   <div className="group p-6 rounded-2xl bg-white border border-slate-100 shadow-card hover:shadow-card-hover hover:border-primary/20 hover:-translate-y-0.5 transition-all duration-400">
                     <div className="flex items-center justify-between mb-4">
                       <div>
-                        <p className="font-bold text-slate-900 group-hover:text-primary transition-colors" style={{ fontFamily: 'Syne, sans-serif' }}>
+                        <p className="font-bold text-slate-900 group-hover:text-primary transition-colors" style={{ fontFamily: 'Manrope, sans-serif' }}>
                           {t.modality}
                         </p>
                         <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">{t.note}</p>
@@ -98,7 +98,7 @@ const Process = () => (
                       <div className="text-right">
                         <span
                           className="text-2xl font-black text-primary group-hover:scale-110 inline-block transition-transform duration-300"
-                          style={{ fontFamily: 'Syne, sans-serif' }}
+                          style={{ fontFamily: 'Manrope, sans-serif' }}
                         >
                           {t.time}
                         </span>
@@ -133,14 +133,14 @@ const Process = () => (
                   />
                   <div className="absolute w-28 h-28 rounded-full bg-white flex items-center justify-center">
                     <div className="text-center">
-                      <span className="text-3xl font-black text-slate-900 block leading-none" style={{ fontFamily: 'Syne, sans-serif' }}>10m</span>
+                      <span className="text-3xl font-black text-slate-900 block leading-none" style={{ fontFamily: 'Manrope, sans-serif' }}>10m</span>
                       <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">Avg CT</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="text-center px-8">
-                  <p className="text-xl font-black text-slate-900" style={{ fontFamily: 'Syne, sans-serif' }}>Real-time</p>
+                  <p className="text-xl font-black text-slate-900" style={{ fontFamily: 'Manrope, sans-serif' }}>Real-time</p>
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.25em] mt-1">Operational Oversight</p>
                 </div>
 
