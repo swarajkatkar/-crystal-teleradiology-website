@@ -98,6 +98,38 @@ const Footer = () => {
         {/* Divider */}
         <div className="section-divider-dark mt-12 mb-8" />
 
+        <div className="flex justify-center px-4 pb-4 text-center text-[11px] text-slate-400">
+          <p className="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-1 leading-relaxed max-w-full">
+            <span>Made with love by</span>
+            <a
+              href="https://www.linkedin.com/in/pranav-kulkarni1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-white transition-colors duration-200"
+            >
+              Pranav
+            </a>
+            <span>,</span>
+            <a
+              href="https://www.linkedin.com/in/swaraj-katkar-48a2b5282/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-white transition-colors duration-200"
+            >
+              Swaraj
+            </a>
+            <span>&amp;</span>
+            <a
+              href="https://www.linkedin.com/in/rushikesh-shinde-36a394309/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-white transition-colors duration-200"
+            >
+              Rushi
+            </a>
+          </p>
+        </div>
+
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-600">
           <span>
