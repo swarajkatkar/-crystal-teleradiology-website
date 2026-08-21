@@ -179,7 +179,7 @@ const Contact = () => {
                         name="email"
                         type="email"
                         className="form-input"
-                        placeholder="rajesh@hospital.com"
+                        placeholder="abc@hospital.com"
                         onFocus={() => setFocused("email")}
                         onBlur={() => setFocused(null)}
                         onChange={handleChange}

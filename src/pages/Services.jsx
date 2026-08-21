@@ -72,21 +72,24 @@ const Services = () => (
                   <div className="aspect-video bg-primary-navy rounded-3xl flex items-center justify-center relative overflow-hidden">
                     {/* Grid pattern background */}
                     <div className="absolute inset-0 bg-dots-dark opacity-60" />
+                    <div className="absolute inset-0 bg-slate-950/25" />
 
-                    {/* Large icon */}
-                    <span className="text-[7rem] leading-none opacity-15 transition-all duration-1000 group-hover:opacity-25 group-hover:scale-110 select-none z-10 relative">
-                      {svc.icon}
-                    </span>
+                    <img
+                      src={svc.image}
+                      alt={svc.title}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
 
                     {/* Status bar top */}
-                    <div className="absolute top-5 left-5 flex items-center gap-2.5">
+                    <div className="absolute top-5 left-5 flex items-center gap-2.5 z-10">
                       <div className="w-2 h-2 rounded-full bg-accent-green animate-pulse-slow" />
                       <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Service Active</span>
                     </div>
 
                     {/* Service name bottom */}
-                    <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-primary-navy to-transparent" />
-                    <div className="absolute bottom-5 left-5 right-5">
+                    <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-primary-navy to-transparent z-10" />
+                    <div className="absolute bottom-5 left-5 right-5 z-10">
                       <p className="text-white font-black text-xl leading-tight" style={{ fontFamily: 'Manrope, sans-serif' }}>
                         {svc.title}
                       </p>

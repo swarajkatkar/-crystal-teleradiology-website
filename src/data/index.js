@@ -22,7 +22,7 @@ export const STATS = [
 export const SERVICES = [
   {
     id: "ct",
-    icon: "🧠",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787303583/MRI_scan_reporting.png",
     title: "CT Scan Reporting",
     description:
       "Expert CT reporting with one of India's fastest turnaround times, covering the full range of CT modalities.",
@@ -36,7 +36,7 @@ export const SERVICES = [
   },
   {
     id: "mri",
-    icon: "🔬",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787304479/MRI.png",
     title: "MRI Scan Reporting",
     description:
       "High-precision MRI interpretation across all body regions by specialist MD/DNB radiologists.",
@@ -50,7 +50,7 @@ export const SERVICES = [
   },
   {
     id: "xray",
-    icon: "📡",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787303589/X-Ray_reporting.png",
     title: "X-Ray Reporting",
     description:
       "Rapid, structured X-ray reports for all general and specialised procedures with digital delivery.",
@@ -64,7 +64,7 @@ export const SERVICES = [
   },
   {
     id: "tele",
-    icon: "🌐",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787303584/Teleradiology_Services.png",
     title: "Teleradiology Services",
     description:
       "End-to-end remote radiology solutions extending specialist expertise to your facility around the clock.",
@@ -133,7 +133,7 @@ export const TECH_FEATURES = [
 // ─── Doctor profiles (Home + Team page) ──────────────────────────────────────
 export const DOCTORS = [
   {
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&h=450&q=80",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787301824/ashok.png",
     name: "Dr. Ashok Sharma",
     qualification: "MD, DNB",
     specialization: "CT / MRI Specialist",
@@ -142,7 +142,7 @@ export const DOCTORS = [
     expertise: ["Brain CT & MRI", "CT Angiography", "Whole-Body CT", "Neuro MRI"],
   },
   {
-    image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=600&h=450&q=80",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787301822/amol.png",
     name: "Dr. Amol Musale",
     qualification: "MD Radiodiagnosis",
     specialization: "CT / MRI Reporting",
@@ -151,7 +151,7 @@ export const DOCTORS = [
     expertise: ["CT Scan Reporting", "MRI Interpretation", "Chest Imaging", "Abdominal Radiology"],
   },
   {
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&h=450&q=80",
+    image: "https://res.cloudinary.com/srhdbykb/image/upload/v1787301821/savant.png",
     name: "Dr. Rohan Sawant",
     qualification: "MD Radiodiagnosis",
     specialization: "Fetal Imaging",
@@ -171,8 +171,8 @@ export const CLIENTS = [
 
 // ─── External image URLs ──────────────────────────────────────────────────────
 export const IMAGES = {
-  hero: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
-  tech: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1200&q=80",
+  hero: "https://res.cloudinary.com/srhdbykb/image/upload/v1787303631/home.png",
+  tech: "https://res.cloudinary.com/srhdbykb/image/upload/v1787303587/PACS_engine.png",
 };
 
 // ─── About page data ──────────────────────────────────────────────────────────
@@ -194,8 +194,8 @@ export const INSTITUTIONS = [
 
 // ─── Contact page data ────────────────────────────────────────────────────────
 export const CONTACT_INFO = [
-  { icon: "📞", label: "Phone",   value: "+91 00000 00000",               href: "tel:+910000000000" },
-  { icon: "✉️", label: "Email",   value: "info@crystalteleradiology.com", href: "mailto:info@crystalteleradiology.com" },
+  { icon: "📞", label: "Phone",   value: "+91 9421955666",               href: "tel:+919421955666" },
+  { icon: "✉️", label: "Email",   value: "info.crystaltele@gmail.com", href: "mailto:info.crystaltele@gmail.com" },
   { icon: "📍", label: "Address", value: "Pune, Maharashtra, India",       href: null },
   { icon: "🕐", label: "Hours",   value: "24 × 7 × 365",                  href: null },
 ];
